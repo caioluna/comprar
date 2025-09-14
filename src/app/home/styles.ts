@@ -34,5 +34,15 @@ export const styles = StyleSheet.create({
     paddingBottom: 12,
     borderBottomWidth: 1,
     borderBottomColor: "#E4E6EC",
+  },
+  listSeparator: {
+    width: '100%',
+    height: 1,
+    backgroundColor: '#E4E6EC',
+    marginVertical: 16,
+  },
+  listContent: {
+    paddingTop: 24,
+    paddingBottom: 48,
   }
 });

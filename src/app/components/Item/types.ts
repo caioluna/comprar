@@ -11,5 +11,5 @@ type ItemProps = {
   handleChangeStatus: () => void;
 }
 
-export { ItemProps };
+export { ItemData, ItemProps };
 

@@ -12,6 +12,7 @@ export function Filter({ status, isActive, ...rest }: FilterProps) {
       style={[styles.container, { opacity: isActive ? 1 : 0.5 }]}
     >
       <StatusIcon status={status} />
+
       <Text style={styles.status}>
         {status === FilterStatus.DONE ? "Comprados" : "Pendentes"}
       </Text>

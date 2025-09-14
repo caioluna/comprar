@@ -1,9 +1,9 @@
-import { Text, TouchableOpacity } from "react-native";
+import { Text, TouchableOpacity, TouchableOpacityProps } from "react-native";
 import { styles } from "./styles";
 
-export function ClearButton() {
+export function ClearButton({ ...rest }: TouchableOpacityProps) {
   return (
-    <TouchableOpacity style={styles.button}>
+    <TouchableOpacity style={styles.button} {...rest}>
       <Text style={styles.text}>Limpar</Text>
     </TouchableOpacity>
   );

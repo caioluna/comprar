@@ -4,5 +4,11 @@ import { styles } from "./styles";
 import { CustomInputProps } from "./types";
 
 export function CustomInput({ ...rest }: CustomInputProps) {
-  return <TextInput style={styles.container} {...rest} />;
+  return (
+    <TextInput
+      placeholderTextColor="#74798B"
+      style={styles.container}
+      {...rest}
+    />
+  );
 }
